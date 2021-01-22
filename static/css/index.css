@@ -4440,6 +4440,7 @@ _:future,
 #sidebar #sidebar-menus .menus_items .menus_item_child {
   margin: 0;
   list-style: none;
+  display: none;
 }
 #vcomment {
   font-size: 1.1em;
@@ -4453,7 +4454,7 @@ _:future,
   background: var(--btn-hover-color);
 }
 #vcomment textarea {
-  background: url("https://cdn.yusong.site/Sitich16.gif") 100% 100% no-repeat;
+  background: url("https://cdn.jsdelivr.net/gh/leopold7/CDN2@main/static/images/Sitich16.gif") 100% 100% no-repeat;
 }
 #vcomment textarea:focus {
   background-image: none;
