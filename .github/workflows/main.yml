@@ -1,14 +1,12 @@
 name: image
 on:
-  pull_request:
+  push:
     paths:
       - 'static/**'
 jobs:
   compress:
     runs-on: ubuntu-latest
     steps:
-      - name: Tinify Image Action
-        uses: namoscato/action-tinify@v1.3.2
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
