@@ -1,4 +1,3 @@
-<script type="text/javascript">
 (function($){
     $.fn.snow = function(options){
     var $flake = $('<div id="snowbox" />').css({'position': 'absolute','z-index':'9999', 'top': '-50px'}).html('❄'),
@@ -40,4 +39,3 @@ $(function(){
         newOn: 300  /* 定义密集程度，数字越小越密集 */
     });
 });
-</script>
