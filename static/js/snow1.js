@@ -1,4 +1,4 @@
-/*(function($){
+(function($){
     $.fn.snow = function(options){
     var $flake = $('<div id="snowbox" />').css({'position': 'absolute','z-index':'9999', 'top': '-50px'}).html('❄'),
     documentHeight     = $(document).height(),
@@ -39,4 +39,3 @@ $(function(){
         newOn: 300
     });
 });
-*/
