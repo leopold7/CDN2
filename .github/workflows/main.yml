@@ -6,8 +6,6 @@ on:
 jobs:
   compress:
     runs-on: ubuntu-latest
-    concurrency:
-      group: my-job-concurrency
     steps:
       - uses: actions/checkout@v2
         with:
